@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym for fitness</title>
+</head>
+<style>
+    body{
+        color: cornsilk;
+        padding: 0px;
+        margin: 0px;
+        background-image: url('img/samurai.jpg');
+    }
+    .left{
+        display: inline-block;
+        left: 34px;
+        position: absolute;
+        top: 0px;
+        
+    }
+    .left img {
+        width: 73px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 0px auto;
+        
+    }
+    .right{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+
+    }
+    .navbar li a{
+        padding: 25px;
+        font-size: 20px;
+        color: rgb(238, 5, 226);
+    }
+    .navbar li a:hover , .navbar li a.active{
+        color: lime;
+        text-decoration: underline;
+        
+    }
+    .btn{
+        color: rgb(0, 30, 197);
+        padding: 6px 20px;
+        font-size: 20px;
+    }
+    .container{
+        
+        width: 34%;
+        margin: 162px 40px;
+        padding: 5px 30px;
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 158px;
+        padding: 4px;
+        
+        margin: 2px auto;
+
+    }
+    .conatainer h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 21%;
+        margin: auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/girl.png" alt="">
+            <div>
+                VARUN CLUB
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href='#' class="active"> home</a></li>
+                <li><a href='#'>register</a></li>
+                <li><a href='#'>fees</a></li>
+                <li><a href='#'>maps</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">mail</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM NOW !</h1>
+        <form action="noaction.php"></form>
+        <div class="form">
+            <input type="text" placeholder="NAME">
+        </div>
+        <div class="form">
+            <input type="text" placeholder="NUMBER">
+        </div><div class="form">
+            <input type="text" placeholder="enter your name">
+        </div><div class="form">
+            <input type="text" placeholder="enter your name">
+        </div>
+        <button class="btn">submit</button>
+    </div>
+</body>
+</html>
